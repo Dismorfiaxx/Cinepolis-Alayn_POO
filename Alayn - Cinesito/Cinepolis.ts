@@ -78,8 +78,8 @@ export class CinePolis {
     actualizar(pelicula: Pelicula): void;
     }
   
-  /* Clase Cliente
-  Implementacion del Patron de diseño Observer
+  /* OBSERVADOR
+  
   */
   export class Usuario implements Observer {
     private nombre: string;
@@ -129,7 +129,7 @@ export class CinePolis {
     }
   }
   
-  // Clase Comestible
+  // Clase Alimentos
   export class Alimentos {
     public nombre: string;
   
